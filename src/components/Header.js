@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from 'styled-components'; 
 import SearchIcon from '@material-ui/icons/Search';
 
 import logo1 from './linkedin.png';
@@ -21,11 +21,26 @@ function Header() {
 
                    
                </Search>
+               <Nav>Nav menu</Nav>
                
            </Content>
        </Container>
     )
 }
+
+const Nav = styled.nav`
+margin-left:auto;
+display:block;
+@media(max-width: 768px){
+    position:fixed;
+    left:0;
+    bottom:0;
+    background:white;
+    width:100%;
+}
+
+
+`;
 const Container = styled.div`
     background-color:white;
     border-bottom:1px solid rgba(0,0,0,0.08);
