@@ -2,6 +2,7 @@ import styled from 'styled-components';
 import SearchIcon from '@material-ui/icons/Search';
 
 import logo1 from './linkedin.png';
+import NavImage from './nav-home.svg';
 function Header() {
     return (
        <Container>
@@ -21,7 +22,11 @@ function Header() {
 
                    
                </Search>
-               <Nav>Nav menu</Nav>
+               <Nav><NavListWrap><NavList>
+                   <a>
+                       <img src="" alt="" />
+                   </a>
+                   </NavList></NavListWrap></Nav>
                
            </Content>
        </Container>
