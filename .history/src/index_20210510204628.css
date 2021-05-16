@@ -1,0 +1,32 @@
+body {
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+:root,
+body,
+html {
+  background-color: #f5f5f5;
+  box-sizing: border-box;
+}
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+html,
+p,
+img,
+i,
+li,
+nav,
+small,
+span,
+ul {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+}
